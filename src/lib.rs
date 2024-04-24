@@ -7,7 +7,7 @@ pub const MEMORY_SIZE: usize = 32768;
 pub const SCRATCHPAD_ITERS: usize = 5000;
 pub const ITERS: usize = 1;
 pub const BUFFER_SIZE: usize = 42;
-pub const SLOT_LENGTH: usize = 64;
+pub const SLOT_LENGTH: usize = 1024;
 
 // Untweakable parameters
 pub const KECCAK_WORDS: usize = 25;
