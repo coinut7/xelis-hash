@@ -4,7 +4,7 @@ use tiny_keccak::keccakp;
 
 // These are tweakable parameters
 pub const MEMORY_SIZE: usize = 32768;
-pub const SCRATCHPAD_ITERS: usize = 2500;
+pub const SCRATCHPAD_ITERS: usize = 20000;
 pub const ITERS: usize = 1;
 pub const BUFFER_SIZE: usize = 42;
 pub const SLOT_LENGTH: usize = 256;
